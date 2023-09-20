@@ -1,4 +1,421 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
+body{
+  margin: 0;
+  padding: 0;
+}
+a{
+  font-size: 16px !important;
+  font-weight: 400;
+  color: white !important;
+  margin-right: 20px;
+  text-decoration: none !important;
+}
+ul{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+/* Menu desigin =========================== */
+
+.bgColor{
+  background-color: black;
+  transition: .4s all ease-in-out;
+  box-shadow: 0px 30px 26px -3px rgba(0,0,0,0.1);
+}
+
+.menu_contact--button, .banner--button1, .banner--button2{
+  background-color: #FA6400 !important;
+  border: none !important;
+  border-radius: 5px !important;
+}
+
+.menu_dark--button{
+  background: none !important;
+  border: none !important;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.menu_dark--button span{
+  font-size: 30px;
+}
+
+nav{
+  position: fixed !important;
+  width: 100% !important;
+  top: 0%;
+  left: 50% !important;
+  transform: translateX(-50%);
+  z-index: 99 !important;
+
+}
+
+.navbar-brand img{
+  width: 85px !important;
+  height: 85px !important;
+}
+
+.h1{
+  position: absolute;
+}
+
+.navbar-toggler, .navbar-toggler collapsed{
+  background-color: #FA6400 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* ================= menu design end ================== */
+
+
+/* ================= banner design start ================== */
+
+.banner_heading, .about_heading, .know_heading{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner_heading p, .about_heading p, .know_heading p{
+  width: 80px;
+  background-color: #FA6400;
+  height: 2px;
+  margin-top: 15px;
+  margin: 14px 10px;
+}
+
+.banner_heading h3, .about_heading h3, .know_heading h3, .know_heading h6{
+  font-weight: 400;
+  color: #FA6400;
+}
+
+banner_heading--name
+.banner_heading--name, .banner_heading--sub{
+  color: #FA6400;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.banner_heading--name span, .banner_heading--sub span{
+  color: white;
+}
+
+.banner_heading--sub{
+  font-size: 40px;
+}
+
+.banner_subHeading{
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+}
+
+.banner_left{
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner--button1, .banner--button2, .modal-footer button{
+  padding: 10px 20px !important;
+  border-radius: 50px !important;
+}
+
+.banner--button2{
+  margin-left: 10px !important;
+}
+
+.banner_img--border{
+  border: 3px solid #e9b390;
+  width: 70%;
+  height: 100%;
+}
+
+.banenr_img__inner--border{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #e9b390;
+  margin-left: 13px;
+  margin-top: 10px;
+}
+
+.banenr_img__inner--border img{
+  width: 100%;
+  height: 100%;
+}
+
+.bg_img{
+  background-image: url('../public/image/ba.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_main, .mern_logo_section{
+  display: flex;
+  justify-content: space-around;
+}
+
+.mern_logo_section{
+  width: 400px;
+  margin: 0 auto;
+}
+
+.mern_logo_main{
+  width: 70px;
+  height: 70px;
+  border: 2px solid #FA6400;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mern_logo img{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+}
+
+/* ================= banner design end ================== */
+
+/* about section start ==============================*/
+
+.signature_img{
+  width: 15%;
+  margin: 0 auto;
+}
+
+.about_config{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+}
+
+.about_img_main{
+  margin-top: 100px;
+}
+
+/* about section end ==============================*/
+
+/* what i know ==================================== */
+
+.know_heading span{
+  color: #FA6400;
+}
+
+.know_items{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  padding: 5px 0px;
+  border: 1px solid rgb(226, 225, 225);
+  border-image: linear-gradient(45deg, purple, orange) 1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* what i know ==================================== */
+
+/* Service section start =========================== */
+
+.service_main-section{
+  cursor: pointer;
+}
+
+.service_main-section:hover{
+  background-color: #FA6400;
+  cursor: pointer;
+  transition: .4s all ease-in-out;
+  color: white;
+}
+
+.service_main-content h5{
+  font-size: 18px;
+}
+
+.service_main-content p, .qualityDiscription{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.serviceDiscription{
+  text-align: justify;
+}
+
+/* Service section end =========================== */
+
+/* project Tab section =========================== */
+
+.nav-tabs{
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.nav-item button{
+  font-size: 18px;
+  padding: 10px 30px !important;
+
+}
+
+.nav-item .nav-link{
+  color: rgb(102, 101, 101) !important;
+  font-weight: 400;
+}
+
+.nav-item .nav-link:focus{
+  color: #FA6400 !important;
+}
+
+.nav-tabs .nav-link.active {
+  background: transparent !important;
+  color: #FA6400 !important;
+}
+
+.tab_section{
+  padding-bottom: 50px;
+}
+
+.Project_main{
+  overflow-y: scroll;
+  height: 270px;
+}
+
+.projent_position-section{
+  text-align: center;
+  margin-top: 15px;
+
+}
+
+.g{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.project_link a{
+  color: #FA6400 !important;
+}
+/* project Tab section =========================== */
+
+
+/* testimonial section ========================*/
+
+.testimo_img{
+  width: 75px;
+  height: 75px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 1px solid #FA6400;
+  display: flex;
+  justify-content: center;
+  border-radius: 100%;
+  align-items: center;
+}
+
+.testimo_img img{
+  width: 90%;
+  height: 90%;
+  border-radius: 100%;
+}
+
+.slider_main h3{
+  color: #FA6400;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.slider_main h6{
+  color: red;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.slider_main p{
+  color: rgb(82, 81, 81);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0px 20px;
+}
+
+.slider__item{
+  margin-top: 50px !important;
+  padding: 35px 0px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid rgb(245, 245, 245);
+  position: relative;
+}
+
+.slider__sub{
+  margin-top: 20px !important;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.slider__item h6{
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.slider__item h3{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.slider__star span{
+  color: orange;
+}
+
+.slider__img{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: -40px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  border: 2px solid #FA6400;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider__img img{
+  width: 90%;
+  height: 90%;
+  border-radius: 100%;
+}
+
+.carousel-indicators button{
+  background-color: #FA6400 !important;
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+}
+
+.contact_info{
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-control{
+  box-shadow: none !important;
+  border: none !important;
+  border: 1px solid #e9b390 !important;
+}
+
+/* Contact section ====================*/
