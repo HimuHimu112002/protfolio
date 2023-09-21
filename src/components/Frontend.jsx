@@ -8,11 +8,8 @@ const Frontend = () => {
             <Col sm={10} md={6} lg={4} className='m-auto'>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/innovate.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='Project_main1'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Innovate frontend</h5>
                         <ul className='g'>
                             <li>Html</li>
@@ -29,11 +26,8 @@ const Frontend = () => {
             <Col sm={10} md={6} lg={4} className='m-auto'>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/innovate1.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='Project_main2'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Ecommerce frontend</h5>
                         <ul className='g'>
                             <li>Html</li>
@@ -50,11 +44,8 @@ const Frontend = () => {
             <Col sm={10} md={6} lg={4} className='m-auto'>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/inoovate2.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='Project_main3'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Innovate frontend</h5>
                         <ul className='g'>
                             <li>Html</li>
@@ -71,11 +62,8 @@ const Frontend = () => {
             <Col className='mt-3 m-auto' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/restaurant.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='Project_main4'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Restaurant frontend</h5>
                         <ul className='g'>
                             <li>Html</li>
@@ -93,11 +81,8 @@ const Frontend = () => {
             <Col className='mt-3 m-auto' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/burger.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='Project_main5'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Burger frontend</h5>
                         <ul className='g'>
                             <li>Html</li>
@@ -115,11 +100,8 @@ const Frontend = () => {
             <Col className='mt-3 m-auto' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/tempico.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='Project_main6'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Tempico frontend</h5>
                         <ul className='g'>
                             <li>Html</li>
@@ -133,6 +115,7 @@ const Frontend = () => {
                     </div>
                 </div>
             </Col>
+            
         </Row>
     </Container>
   )

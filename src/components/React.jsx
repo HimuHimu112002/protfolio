@@ -8,11 +8,8 @@ const React = () => {
             <Col className='m-auto' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/chatting.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='React_Project_main1'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Real time chatting app</h5>
                         <ul className='g'>
                             <li>React.js</li>
@@ -30,11 +27,8 @@ const React = () => {
             <Col className='m-auto mt-3' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/social.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='React_Project_main2'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Multi feature social app</h5>
                         <ul className='g'>
                             <li>React.js</li>
@@ -52,11 +46,8 @@ const React = () => {
             <Col className='m-auto mt-3' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/blog.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='React_Project_main3'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Blog App</h5>
                         <ul className='g'>
                             <li>React.js</li>
@@ -74,11 +65,8 @@ const React = () => {
             <Col className='m-auto mt-3' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/oreby.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='React_Project_main4'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Ecommerce frontend</h5>
                         <ul className='g'>
                             <li>React.js</li>
@@ -95,11 +83,8 @@ const React = () => {
             <Col className='m-auto mt-3' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                    <div className='Project_main'>
-                        <img className="img-fluid" src="image/crud.png"></img>
-
-                    </div>
-                    <div className='projent_position-section'>
+                    <div className='React_Project_main5'></div>
+                    <div className='projent_position-section px-3'>
                         <h5>Crud</h5>
                         <ul className='g'>
                             <li>React.js</li>

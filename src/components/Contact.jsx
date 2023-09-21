@@ -3,6 +3,8 @@ import { Col, Container, Row,Button } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BsPhone } from 'react-icons/bs';
+import { AiOutlineMail } from 'react-icons/ai';
 const Contact = () => {
 
     let [userName, setuserName] = useState("")
@@ -71,13 +73,24 @@ const Contact = () => {
             <div className='contact_info mt-5 pb-5'>
                 <div>
                     <h4>Phone Number</h4>
-                    <li>01733571516</li>
-                    <li>01637244543</li>
+                    
+                    <div className='contact_icon'>
+                    <BsPhone></BsPhone>
+                    <p>01637244543</p>
+                </div>
+                <div className='contact_icon'>
+                    <BsPhone></BsPhone>
+                    <p>01733571516</p>
+                </div>
                 </div>
 
                 <div>
                     <h4 className=''>Email Address</h4>
-                    <p>mdhmaktaruzzaman9101@gmail.com</p>
+                    <div className='contact_icon'>
+                    
+                    <AiOutlineMail></AiOutlineMail>
+                    <p className='email'>mdhmaktaruzzaman9101@gmail.com</p>
+                    </div>
                 </div>
             </div>
 

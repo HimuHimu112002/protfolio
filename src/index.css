@@ -283,16 +283,68 @@ banner_heading--name
 .tab_section{
   padding-bottom: 50px;
 }
-
 .Project_main{
   overflow-y: scroll;
+  height: 300px;
+}
+
+.Project_main3, .Project_main1, .Project_main2, .Project_main4, .Project_main5, .Project_main6, .React_Project_main1, .React_Project_main2, .React_Project_main3, .React_Project_main4, .React_Project_main5, .backend_Project_main1, .Strapi_Project_main1{
+  overflow: hidden;
   height: 270px;
+  background-image: url('../public/image/inoovate2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  transition: ease-in-out 6s;
+}
+.Project_main1{
+  background-image: url('../public/image/innovate.png');
+}
+.Project_main2{
+  background-image: url('../public/image/innovate1.png');
+}
+.Project_main4{
+  background-image: url('../public/image/restaurant.png');
+}
+.Project_main5{
+  background-image: url('../public/image/burger.png');
+}
+.Project_main6{
+  background-image: url('../public/image/tempico.png');
+}
+.React_Project_main1{
+  background-image: url('../public/image/chatting.png');
+}
+.React_Project_main2{
+  background-image: url('../public/image/social.png');
+}
+.React_Project_main3{
+  background-image: url('../public/image/blog.png');
+}
+.React_Project_main4{
+  background-image: url('../public/image/oreby.png');
+}
+.React_Project_main5{
+  background-image: url('../public/image/crud.png');
+}
+.backend_Project_main1{
+  background-image: url('../public/image/inventory.png');
+  background-position: left;
+}
+
+.Project_main3:hover, .Project_main1:hover, .Project_main2:hover, .Project_main4:hover, .Project_main5:hover, .Project_main6:hover, .React_Project_main1:hover, .React_Project_main2:hover, .React_Project_main3:hover, .React_Project_main4:hover, .React_Project_main5:hover{
+  background-position: bottom;
+  cursor: pointer;
+}
+.backend_Project_main1:hover{
+  background-position: right;
+  cursor: pointer;
 }
 
 .projent_position-section{
   text-align: center;
   margin-top: 15px;
-
 }
 
 .g{
@@ -418,4 +470,11 @@ banner_heading--name
   border: 1px solid #e9b390 !important;
 }
 
+.contact_icon{
+  display: flex;
+}
+.contact_icon p{
+  margin-left: 5px;
+  margin-top: -4px;
+}
 /* Contact section ====================*/

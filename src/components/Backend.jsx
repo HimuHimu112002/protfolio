@@ -9,11 +9,9 @@ const Backend = () => {
             <Col className='m-auto mt-3' sm={10} md={6} lg={4}>
                 <div className='p-2 shadow-sm rounded-1'>
 
-                <div className='Project_main'>
-                    <img className="img-fluid" src="image/inventory.png"></img>
-                </div>
+                <div className='backend_Project_main1'></div>
 
-                <div className='projent_position-section'>
+                <div className='projent_position-section px-3'>
                     <h5>Inventory Management</h5>
                     <ul className='g'>
                         <li>React.js</li>
