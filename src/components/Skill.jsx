@@ -27,7 +27,7 @@ const Skill = () => {
               </Col>
 
               <Col sm={6} md={4} lg={2}>
-                <div className='know_items'>JSVASCRIPT</div>
+                <div className='know_items'>JAVASCRIPT</div>
               </Col>
 
               <Col sm={6} md={4} lg={2}>
