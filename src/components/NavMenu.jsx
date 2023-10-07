@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -6,20 +6,19 @@ import Navbar from 'react-bootstrap/Navbar';
 import { CiDark } from 'react-icons/ci';
 import { HashLink as Link } from 'react-router-hash-link';
 const NavMenu = () => {
-  const [mode, setMode] = useState("light")
 
-  let handleLignt =()=>{
-    if (mode === "light" ) {
-      setMode("dark")
-      document.body.style.backgroundColor = "black"
+  const [darkmode, setdarkmode] = useState(false);
+
+  useEffect(()=>{
+    if (darkmode) {
+      document.body.style.backgroundColor = "black";
       document.body.style.color = "white"
     }else{
-      setMode("light")
       document.body.style.backgroundColor = "white"
       document.body.style.color = "black"
     }
+  }, [darkmode])
 
-  }
 
   function changeBG() {
     let navbar = document.getElementById('navbar')
@@ -31,6 +30,8 @@ const NavMenu = () => {
     }
   }
   window.addEventListener('scroll', changeBG)
+
+
   return (
 
     
@@ -56,7 +57,7 @@ const NavMenu = () => {
           <Link to="#contact">Contact</Link>
 
         </Nav>
-        <Button onClick={handleLignt} className='menu_dark--button'><span><CiDark></CiDark></span></Button>
+        <Button onClick={() => setdarkmode(!darkmode)} className='menu_dark--button'><span><CiDark></CiDark></span></Button>
         <Link to="https://github.com/HimuHimu112002">
           <Button className='menu_contact--button'>GITHUB LINK</Button>
         </Link>

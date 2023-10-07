@@ -1,6 +1,6 @@
 import react from 'react';
 import { Col, Container, Row,Button } from 'react-bootstrap'
-import { Fade, Slide,Bounce,Flip,Hinge,JackInTheBox,Zoom} from "react-awesome-reveal";
+import {Zoom} from "react-awesome-reveal";
 
 const Banner = () => {
 
@@ -16,6 +16,8 @@ const Banner = () => {
         })
     }
   return (
+    <div >
+
     <div className='bg_img' id="banner">
     <Container>
         <Row>
@@ -64,6 +66,7 @@ const Banner = () => {
             </Col>
         </Row>
     </Container>
+    </div>
     </div>
   )
 }

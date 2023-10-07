@@ -1,5 +1,6 @@
 import { Col, Container, Row } from 'react-bootstrap'
 import { FiLink2 } from 'react-icons/fi';
+import ModalImage from "react-modal-image";
 
 const Frontend = () => {
   return (
